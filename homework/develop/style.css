@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea{
+    position: absolute;
+    top:5px;
+    left:0px;
+    background:transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    font-size: 20px;
+    
+    text-align: left;
+    width:100%;
+    padding-left:10px;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  
+  .jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    padding:20px;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    
+    white-space: pre-wrap;
+    height: 80px;
+    
+  }
+  
+  .column {
+    border-right: 1px solid black;
+  }
+  
+  #hour {
+    position: relative;
+    
+    background: white;
+    color: #000000;
+    text-align: right;
+    border-top: 1px solid #000000;
+    
+    width:10%;
+  }
+  #userInput9, #userInput10, #userInput11, 
+  #userInput12, #userInput1, #userInput2, 
+  #userInput3, #userInput4, #userInput5 {
+    position: relative;
+    background: #77dd77;
+    /* background:green; */
+    color: #000000;
+    border-top: 1px solid #000000;
+    
+    width:80%;
+  }
+  
+  #saveTheDate {
+    position: relative;
+    border:none;
+    background: white;
+    color: #000000;
+    text-align: right;
+    width:10%;
+  }
+  
+  #hourOfDay{
+    position:absolute;
+    top:5px;
+    right:5px;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    position:absolute;
+    top: 0;
+    left: 0;
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    background-image: url("../assets/Download-Floppy-Disk-Png-Image-68095-For-Designing-Projects.png")  ;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    
+    background-position: center; 
+    height:100%;
+    width:100%;
+    padding-left:35px;
+    padding-top:15px;
+    color: white;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .saveBtn, i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }

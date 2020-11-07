@@ -1,0 +1,34 @@
+node install -done
+heroku install -done
+
+CREATE FOLDERS IN EACH DAY (3)
+
+cd - change directory
+pwd  - current directory
+cd .. to go back previous directory
+cd ~ home directory
+ls - list
+mkdir - create a directory
+touch - create a file
+rm - delete the file
+rm -r - deletes entire folder
+mv - rename the file
+cp - copy a file
+
+cd - change directory
+cd ~ change directory to home dirctory
+cd .. "go up one level"
+pwd  present working directory
+ls - list files/folders
+mkdir - make directory
+mv [f1] [f2] - rename a file
+touch - create a file
+cp - copy a file
+
+# Intro to Console/Bash
+## From the Terminal/Console, using only the command line
+1. Create a new folder with the name of `rutgers`
+2. Create a new txt file with the name `day-1-activity.txt`
+3. Copy `day-1-activity.txt` to the inside of `rutgers`.
+4. Delete the original `day-1-activity.txt` file.
+5. Delete the `rutgers`.

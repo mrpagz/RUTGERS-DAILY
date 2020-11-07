@@ -1,0 +1,19 @@
+create repo in github
+-name
+-public
+-readme
+-copy the link thru code tab
+
+go to git bash
+-go to the directory where you want to save the repo
+-type git clone (right-click)
+-we can create file (touch cmd_
+-git add -A
+
+listen to video 7:30 to 8:30pm view ppinned instruction
+
+Homework
+-bookmark
+-4th item rut som fsf pt 09 2020 u c
+-01 html git css
+-homework
